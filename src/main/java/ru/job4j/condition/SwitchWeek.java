@@ -4,10 +4,10 @@ public class SwitchWeek {
     public static String nameOfDay(int day) {
         String name;
         switch (day) {
-            case 1 :
+            case 1:
                 name = "Понедельник";
                 break;
-            case 2 :
+            case 2:
                 name = "Вторник";
                 break;
             case 3:
