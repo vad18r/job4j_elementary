@@ -15,8 +15,8 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, row);
         Assert.assertTrue(result);
     }
-    @Test
 
+    @Test
     public void whenHasNotMonoHorizontal() {
         char[][] input = {
                 {' ', ' ', ' '},
