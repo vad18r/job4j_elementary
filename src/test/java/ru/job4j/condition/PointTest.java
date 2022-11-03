@@ -41,8 +41,8 @@ public class PointTest {
     }
 
     @Test
-    public void when901to201then70() {
-        double expected = 7.0;
+    public void when901to201then7() {
+        double expected = 7;
         Point pointone = new Point(9, 0, 1);
         Point pointtwo = new Point(2, 0, 1);
         double out = pointone.distance(pointtwo);
@@ -59,8 +59,8 @@ public class PointTest {
     }
 
     @Test
-    public void when1915to1591then14dot0() {
-        double expected = 14.0;
+    public void when1915to1591then14() {
+        double expected = 14;
         Point pointone = new Point(1, 9, 15);
         Point pointtwo = new Point(15, 9, 1);
         double out = pointone.distance(pointtwo);
